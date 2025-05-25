@@ -22,7 +22,13 @@ Or, from [PyPI](https://pypi.org/project/uv/):
 pip install uv
 ```
 
+
 ```bash
-# Or pipx.
-pipx install uv
+# Adding a package.
+uv add <package name>
+```
+
+```bash
+# Checking if package is sucessfully installed.
+uv pip list
 ```
