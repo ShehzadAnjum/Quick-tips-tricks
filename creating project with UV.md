@@ -29,6 +29,15 @@ uv add <package name>
 ```
 
 ```bash
+# The --package flag can be used to create a packaged application:
+# i.e. structured as an installable and distributable package.
+# It follows a standardized layout (with pyproject.toml, src/, etc.).
+
+uv init --package example-pkg
+```
+
+
+```bash
 # Checking if package is sucessfully installed.
 uv pip list
 ```
